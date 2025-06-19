@@ -28,6 +28,9 @@ body {
   color: var(--text-color);
   line-height: 1.6;
   scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Container for consistent content width */
@@ -177,6 +180,39 @@ nav ul li a:hover::after {
   background-color: var(--text-color);
 }
 
+#scroll-top-btn::before {
+  content: '\2191';
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* Add icons before the labels */
+.person-label::before {
+  content: '\1F464';
+  padding-right: 5px;
+  font-size: 1.1em;
+
+}
+
+.email-label::before {
+  content: '✉️';
+  padding-right: 5px;
+  font-size: 1.1em;
+}
+
+.phone-label::before {
+  content: '📞';
+  padding-right: 5px;
+  font-size: 1.1em;
+}
+
+.message-label::before {
+  content: '\1F4E7';
+  padding-right: 5px;
+  font-size: 1.1em;
+}
+
 /* Mobile Menu Specific Styles */
 .menu-toggle {
   color: var(--light-text-color);
@@ -187,6 +223,7 @@ nav ul li a:hover::after {
 
 /* Main Content Area */
 main {
+  flex-grow: 1;
   max-width: 900px;
   margin: calc(var(--spacing-unit) * 2) auto;
   padding: calc(var(--spacing-unit) * 2);
@@ -215,9 +252,9 @@ img.rounded:hover {
 footer {
   text-align: center;
   padding: calc(var(--spacing-unit) * 1.5) 0;
-  margin-top: calc(var(--spacing-unit) * 3);
   background-color: var(--primary-color);
   font-size: 0.9em;
+  flex-shrink: 0;
 }
 
 footer p {
@@ -229,7 +266,6 @@ footer p {
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
   padding: calc(var(--spacing-unit) * 2) 0;
 }

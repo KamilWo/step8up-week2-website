@@ -8,10 +8,11 @@
   --background-color: #f4f7f6;
   --card-background: #fff;
   --border-color: #ccc;
-  --shadow-light: 0 2px 5px rgba(0, 0, 0, 0.1);
-  --shadow-medium: 0 4px 10px rgba(0, 0, 0, 0.08);
-  --shadow-heavy: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-light: 0 2px 5px #0000001A;
+  --shadow-medium: 0 4px 10px #00000014;
+  --shadow-heavy: 0 4px 8px #00000026;
   --spacing-unit: 1rem;
+  --box-shadow1: #007BFF33;
 }
 
 /* General Styling */
@@ -357,7 +358,7 @@ input:focus,
 .form-group textarea:focus {
   border-color: var(--secondary-color);
   outline: none;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  box-shadow: 0 0 5px var(--box-shadow1);
 }
 
 /* Buttons */
@@ -397,7 +398,7 @@ input:focus,
 }
 
 /* Responsive Adjustments */
-@media (max-width: 768px) {
+@media screen and (width <= 768px) {
   header h1 {
     font-size: 1.5em;
   }

@@ -5,7 +5,7 @@
   "private": "true",
   "scripts": {
     "prebuild": "npm run validate && rimraf ./public",
-    "build": "parcel build src/index.html --dist-dir ./public --public-url /step8up-intro-website/",
+    "build": "parcel build src/index.html --dist-dir ./public --public-url /step8up-week2-website/",
     "start": "rimraf ./dist && parcel src/index.html",
     "validate": "npx stylelint src/assets/**/*.css; npx html-validate src/**/*.html"
   },

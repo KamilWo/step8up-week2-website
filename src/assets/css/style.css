@@ -906,8 +906,6 @@ footer {
   .contact-methods, .contact-form {
     flex: 1 1 100%;
     min-width: unset;
-    max-width: 500px;
-    margin: 0 auto;
   }
 
   .get-in-touch-fixed {

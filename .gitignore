@@ -67,6 +67,14 @@ build/Release
 connect.lock
 typings
 
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
 # Dependency directories
 node_modules/
 jspm_packages/
@@ -130,7 +138,7 @@ public/
 # vuepress build output
 .vuepress/dist
 
-# Gatsby and vuepress v2.x temp and cache directory
+# vuepress v2.x temp and cache directory
 .temp
 .cache
 
@@ -163,6 +171,7 @@ Thumbs.db
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
+.vscode
 .vscode-test
 
 # yarn v2

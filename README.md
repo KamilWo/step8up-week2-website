@@ -111,7 +111,7 @@ To replicate the development process:
 
 ## Validation
 
-[W3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkamilwo.github.io%2Fstep8up-intro-website%2F)
+[W3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkamilwo.github.io%2Fstep8up-week2-website%2F)
 
 [W3 CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkamilwo.github.io%2Fstep8up-intro-website&profile=css3svg&usermedium=all&warning=1)
 

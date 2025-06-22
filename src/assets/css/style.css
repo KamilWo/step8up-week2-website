@@ -916,7 +916,7 @@ footer {
   }
 
   .card-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
 
   .contact-content {
@@ -934,6 +934,12 @@ footer {
     right: var(--margin-bottom-default);
     padding: 12px var(--padding-default);
     font-size: 1em;
+  }
+}
+
+@media (width > 900px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -977,6 +983,12 @@ footer {
     font-size: 4.5em;
   }
 
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width > 1400px) {
   .card-grid {
     grid-template-columns: repeat(4, 1fr);
   }

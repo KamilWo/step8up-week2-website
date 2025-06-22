@@ -880,6 +880,12 @@ footer {
 /* --- Responsive Design --- */
 
 /* Extra small devices (phones, 320px and up) */
+@media (width <= 375px) {
+  .search-container2 button {
+    right: -10px;
+  }
+}
+
 @media (width <= 480px) {
   .banner h1 {
     font-size: 2em;

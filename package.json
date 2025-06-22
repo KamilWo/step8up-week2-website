@@ -1,6 +1,6 @@
 {
   "name": "step8up-week2-website",
-  "version": "0.1.0",
+  "version": "0.3.2",
   "description": "This is week2 web development project, created as part of the Step8Up bootcamp!",
   "private": "true",
   "scripts": {

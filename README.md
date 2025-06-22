@@ -109,11 +109,65 @@ To replicate the development process:
 
 [Github Pages URL](https://kamilwo.github.io/step8up-week2-website)
 
-## Validation
+## 🔍 Validation
 
 [W3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkamilwo.github.io%2Fstep8up-week2-website%2F)
 
 [W3 CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkamilwo.github.io%2Fstep8up-intro-website&profile=css3svg&usermedium=all&warning=1)
+
+### Automated Testing Tools
+- **HTML Validation** ✓
+  - Use [W3C Markup Validation Service](https://validator.w3.org/)
+  - Ensure all pages pass without errors
+  - Check for proper semantic structure
+
+- **CSS Validation** 🎨
+  - Use [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+  - Verify CSS syntax and properties
+  - Check for vendor prefix requirements
+
+- **Accessibility Testing** ♿
+  - Use [WAVE Web Accessibility Tool](https://wave.webaim.org/)
+  - Check ARIA labels and roles
+  - Verify color contrast ratios
+  - Test keyboard navigation
+
+- **Responsive Design Testing** 📱
+  - Use Chrome DevTools Device Emulation
+  - Test on multiple real devices
+  - Verify breakpoints functionality
+
+### Manual Testing Checklist
+1. **Cross-browser Testing** 🌐
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+2. **Functionality Testing** ⚙️
+- Navigation links
+- Form submissions
+- Interactive elements
+- Search functionality
+
+3. **Content Review** 📝
+- Spelling and grammar
+- Image alt texts
+- Link text clarity
+- Content consistency
+
+4. **Performance Testing** ⚡
+- Page load times
+- Image optimization
+- CSS/JS minification
+- Mobile performance
+
+5. **User Experience Testing** 👥
+- Navigation flow
+- Form usability
+- Error message clarity
+- Mobile touch targets
+
 
 ## 📚 Resources
 
